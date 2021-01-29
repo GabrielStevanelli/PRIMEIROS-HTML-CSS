@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{background-color: rgb(245, 245, 167);
+    font-family: 'Poppins', sans-serif;
+}
+/*criei o container direto no body*/
+.container{
+    width: 80%;
+    margin:auto;
+    box-shadow: -10px 5px 20px 0px black;
+}
+
+#Dados{
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+.Padding{
+    padding: 30px;
+}
+
+.foto {
+    border-radius: 45%;
+}
+
+
+.btn{
+    border:2px solid black;
+    border-radius: 20px;
+    padding: 7px 50px;
+    font-weight: 700;
+    color:black;
+    text-decoration: none;
+    user-select: none;
+}
+
+.btn:hover{
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: black;
+    padding: 7px 50px;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    user-select: none;
+}
