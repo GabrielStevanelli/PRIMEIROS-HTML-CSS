@@ -1,0 +1,24 @@
+#content {
+    display: flex;
+ /*row de 1 a 10 row-reverse 10 a 1. Column de cima pra baixo Column-reverse de baixo pra cima*/
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    /*wrap ajusta o grafico pelo tamanho da tela*/
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.quadrado {
+    background-color: greenyellow;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+
+}
+
+.quadrado2 {
+    background-color: rgb(40, 243, 216);
+    width: 200px;
+    margin: 20px;
+
+}

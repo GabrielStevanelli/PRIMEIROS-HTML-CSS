@@ -1,0 +1,118 @@
+body{
+    background-color: burlywood;
+}
+
+.container-card{
+    padding: 50px 0px 50px 0px;
+    margin-bottom: 2em;
+}
+
+.img-perfil-card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    font-family:'Poppins';
+}
+.hr{
+    height: 1px;
+    background-color: black;
+}
+.card-image {
+    border-radius: 50%;
+    margin-top: 1em;
+    width: auto;
+    height: 50%;
+}
+
+.card-perfil {
+    background-color: #ffffff !important;
+    box-shadow: black 0px 0px 5px;
+}
+.botoes-card {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-sobre{
+    border-radius: 20px;
+    padding: 5px 25px;
+    background-color: black !important;
+    font-weight: 600;
+    color: #ffffff !important;
+}
+
+.icon-redes-sociais{
+    text-align: center;
+    padding: 10px;
+}
+
+.title-text{
+    margin-top: 1em;
+    font-weight: 600;
+}
+.title-subtitle{
+    margin: 1em 0;
+}
+
+.text {
+    padding: 5px 17px;
+}
+
+.links-redes-sociais {
+    text-decoration: none;
+}
+
+.links-redes-sociais{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#footer-elementos{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-elementos .email {
+    padding: 15px 0px 15px 0px;
+}
+
+@media(min-width:900px) {
+
+.container-linear {
+    background: linear-gradient(to left, #ffffff 10%, #deb887 70%); 
+}
+/*retirei a cor pra não ficar feio, mas deixei o comando*/
+.card-col{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    background-color:none;
+}
+}
+
+.brn-card{
+    color: black !important;
+}
+
+.text-body{
+    box-shadow: none;
+}
+
+.text{
+    max-width: 430px;
+    vertical-align: middle;
+    margin-top: 2em;
+}
+
+#footer-elementos{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+#texto-2{
+    display: none;
+}

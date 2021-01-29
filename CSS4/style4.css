@@ -1,0 +1,22 @@
+div {
+    border: 1px solid black;
+    margin: 50px;
+/* top, right, bottom, left*/
+    padding: 25px 50px 75px 100px;
+}
+
+
+
+/*estava apenas testando*/
+#teste {    border: 3px solid rgba(100, 3, 32, 0.993);
+    margin: 100px;
+    padding: 25px 50px 75px 100px;
+    background-color: rgb(255, 7, 243);
+}
+
+#testeletra{
+    color:darkblue;
+    text-align:center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
